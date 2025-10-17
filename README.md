@@ -47,4 +47,4 @@ run text_speech_bot.exe
 
 
 ```
-## Plan is to add NetCord to this project so it can join a discord call and can be talked too
+### Plan is to add NetCord to this project so it can join a discord call and can be talked too
