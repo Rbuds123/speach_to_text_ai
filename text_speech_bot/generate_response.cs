@@ -35,7 +35,7 @@ namespace text_speech_bot
             Console.WriteLine($"Model: {model} | Endpoint: {baseUri}");
             Console.WriteLine("Say 'Exit.' or 'Quit' to close. Press Ctrl+C to cancel a request.");
             Console.WriteLine();
-            while (!cts.IsCancellationRequested) //if control C pressed end
+            while (!cts.IsCancellationRequested) //if ctrl C pressed end
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.Write("> ");
