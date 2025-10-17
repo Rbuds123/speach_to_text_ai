@@ -16,7 +16,6 @@ The app transcribes what you say, processes it with an AI model, and responds wi
 - 🧠 **Azure Speech SDK** for speech recognition
 - 🤖 **Llama 3** (via Ollama) for generative AI responses
 - 🔊 Optional **text-to-speech** output
-- ⚙️ Works on **Windows**, **macOS**, and **Linux**
 - 🧩 Easily configurable via environment variables
 
 ---
