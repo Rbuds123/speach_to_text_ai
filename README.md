@@ -41,9 +41,7 @@ cd speach_to_text_ai
 # Set environment variables
 $env:SPEECH_KEY="your_azure_key"
 $env:SPEECH_REGION="eastus"
-$env:OLLAMA_BASE_URL="http://localhost:11434"
-$env:MODEL_NAME="llama-3"
 
 # Build & run in development
 dotnet build
-dotnet run --project ./text_speech_bot/text_speech_bot
+run text_speech_bot.exe
