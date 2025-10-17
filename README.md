@@ -16,7 +16,6 @@ The app transcribes what you say, processes it with an AI model, and responds wi
 - 🧠 **Azure Speech SDK** for speech recognition
 - 🤖 **Llama 3** (via Ollama) for generative AI responses
 - 🔊 Optional **text-to-speech** output
-- ⚙️ Works on **Windows**, **macOS**, and **Linux**
 - 🧩 Easily configurable via environment variables
 
 ---
@@ -41,9 +40,11 @@ cd speach_to_text_ai
 # Set environment variables
 $env:SPEECH_KEY="your_azure_key"
 $env:SPEECH_REGION="eastus"
-$env:OLLAMA_BASE_URL="http://localhost:11434"
-$env:MODEL_NAME="llama-3"
 
 # Build & run in development
 dotnet build
-dotnet run --project ./text_speech_bot/text_speech_bot
+run text_speech_bot.exe
+
+
+```
+### Plan is to add NetCord to this project so it can join a discord call and can be talked too
