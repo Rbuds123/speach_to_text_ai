@@ -5,7 +5,7 @@
 [![Ollama](https://img.shields.io/badge/Powered_by-Ollama-4D4D4D?logo=ollama&logoColor=white)](https://ollama.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A **production-ready voice assistant** that connects your **microphone** to **Azure Speech** for transcription and **Llama 3 (Ollama)** for conversation.  
+A **voice assistant** that connects your **microphone** to **Azure Speech** for transcription and **Llama 3 (Ollama)** for conversation.  
 The app transcribes what you say, processes it with an AI model, and responds with text or speech.
 
 ---
